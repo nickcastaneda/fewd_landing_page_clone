@@ -36,6 +36,10 @@ ol, ul {
 }
 /* End of Reset */
 /* Start of Custom Styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .content {
     padding: 0 15px;
 }
@@ -105,7 +109,7 @@ ol, ul {
 margin: auto;
 }
 
-.introduction .half {
+.introduction .buttons {
     width: 49%;
     padding: 0 0.938rem;
     display: inline-block;
@@ -127,7 +131,7 @@ button {
 
 
 .half-learn{
-    margin-top: 100px;
+    margin-top: 0px;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
@@ -138,13 +142,41 @@ button {
 .half-watch{
     text-align: right;
 }
+.bouncing-arrow{
+text-align: center;
 
-
-.cases .devices {
-    width: 33.3%;
-    display: inline-block;
-    /* styles to assist with debugging */
-    border: 1px solid black;
-    box-sizing: border-box;
-    height: 4em;
 }
+.cases{
+text-align: center;
+margin-top: 1em;
+}
+.cases .gas {
+    width: 20%;
+    display: inline-block;
+    height: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.cases .coffee {
+    width: 20%;
+    display: inline-block;
+    height: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.cases .devices {
+    width: 20%;
+    display: inline-block;
+    height: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+
+}
+.cases h1 {
+    font-size: 2rem;
+
+.cases h2 {
+    font-size: 1.5rem;
+}
+.cases h3 {
+    font-size: 3rem;
