@@ -105,9 +105,26 @@ ol, ul {
 margin: auto;
 }
 
-.buttons{
+.introduction .half {
+    width: 49%;
+    padding: 0 0.938rem;
     display: inline-block;
+    vertical-align: bottom;
+    font-size: 1.125rem;
+    line-height: 1.2;
 }
+button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+
 
 .half-learn{
     margin-top: 100px;
@@ -119,9 +136,9 @@ margin: auto;
     text-align: left;
 }
 .half-watch{
-        text-align: right;
-
+    text-align: right;
 }
+
 
 .cases .devices {
     width: 33.3%;
