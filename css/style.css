@@ -142,10 +142,35 @@ button {
 .half-watch{
     text-align: right;
 }
-.bouncing-arrow{
-text-align: center;
-
+.introduction {
+    position: relative;
 }
+.bouncing-arrow {
+    position: absolute;
+    height: 5.625rem;
+    bottom: 0;
+    width: 3.250rem;
+    left: 50%;
+    z-index: 1000;
+    margin-left: -1.625rem;
+}
+.bouncing-arrow img {
+    -webkit-animation: bounce 1.2s ease-in-out infinite alternate;
+    -o-animation: bounce 1.2s ease-in-out infinite alternate;
+    animation: bounce 1.2s ease-in-out infinite alternate;
+}
+/* I would like to talk about how these breakdown */ 
+@-webkit-keyframes bounce {
+    0%, 100% {margin-top: 0px;}
+    50% {margin-top: 2rem;}
+}
+/* confusing copy and pasted */ 
+@keyframes bounce {
+    0%, 100% {margin-top: 0px;}
+    50% {margin-top: 2rem;}
+}
+
+
 .cases{
 text-align: center;
 margin-top: 1em;
@@ -170,13 +195,13 @@ margin-top: 1em;
     height: 2em;
     margin-right: 1em;
     margin-left: 1em;
-
+    margin-bottom: 1em'
 }
 .cases h1 {
     font-size: 2rem;
-
+}
 .cases h2 {
-    font-size: 1.5rem;
+    font-size: 1.rem;
 }
 .cases h3 {
     font-size: 3rem;
