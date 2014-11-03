@@ -154,6 +154,7 @@ button {
     z-index: 1000;
     margin-left: -1.625rem;
 }
+/* ???? why did I do this*/
 .bouncing-arrow img {
     -webkit-animation: bounce 1.2s ease-in-out infinite alternate;
     -o-animation: bounce 1.2s ease-in-out infinite alternate;
@@ -173,7 +174,7 @@ button {
 
 .cases{
 text-align: center;
-margin-top: 1em;
+margin-top: 5em;
 }
 .cases .gas {
     width: 20%;
