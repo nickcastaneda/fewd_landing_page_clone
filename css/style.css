@@ -175,6 +175,7 @@ button {
 .cases{
 text-align: center;
 margin-top: 5em;
+margin-bottom: 5em;
 }
 .cases .devices {
     width: 20%;
@@ -206,10 +207,41 @@ margin-top: 5em;
 .cases h3 {
     font-size: 3rem;
 }
+.whats {
+    background-image: url(../img/buy-now-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 45rem;
+    overflow: auto;
+        background-size: cover;
+}
+.buybutt{
+margin-bottom: 2em;
+}
+.whats .buy {
+    margin-top: 2em;
+    width: 25%;
+    display: inline-block;
+    height: 40em;
+    margin-right: 1em;
+    margin-left: 4em;
+}
+
+.whats .buy h3{
+font-size: 1em;
+font-weight: lighter;
+line-height: 2em;
+}
+
+.whats .buy h1{
+font-size: 2em;
+color: #f15a29;
+margin-bottom: .5em;
+}
 
 .icons{
-    display: inline-block;
     text-align: center;
+    display: inline-block; 
 }
 .twitter{
     border: .2em solid;
