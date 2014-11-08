@@ -176,7 +176,7 @@ button {
 text-align: center;
 margin-top: 5em;
 }
-.cases .gas {
+.cases .devices {
     width: 20%;
     display: inline-block;
     height: 2em;
@@ -190,19 +190,37 @@ margin-top: 5em;
     margin-right: 1em;
     margin-left: 1em;
 }
-.cases .devices {
+.cases .gas {
     width: 20%;
     display: inline-block;
     height: 2em;
     margin-right: 1em;
     margin-left: 1em;
-    margin-bottom: 1em'
 }
 .cases h1 {
     font-size: 2rem;
 }
 .cases h2 {
-    font-size: 1.rem;
+    font-size: 1rem;
 }
 .cases h3 {
     font-size: 3rem;
+}
+
+.icons{
+    display: inline-block;
+    text-align: center;
+}
+.twitter{
+    border: .2em solid;
+    border-radius: 10px;
+}
+.facebook{
+    border: .2em solid;
+    border-radius: 10px;
+}
+.instagram{
+    border: .2em solid;
+    border-radius: 10px;
+}
+ 
