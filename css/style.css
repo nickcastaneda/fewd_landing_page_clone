@@ -104,12 +104,12 @@ body {
     margin-top: 1.25rem;
     font-size: 1.563rem;
 }
-}
+
 .content{
 margin: auto;
 }
 
-.introduction .buttons {
+.buttons {
     width: 49%;
     padding: 0 0.938rem;
     display: inline-block;
@@ -212,8 +212,7 @@ margin-bottom: 5em;
     background-repeat: no-repeat;
     background-position: center top;
     height: 45rem;
-    overflow: auto;
-        background-size: cover;
+    background-size: cover;
 }
 .buybutt{
 margin-bottom: 2em;
@@ -222,7 +221,7 @@ margin-bottom: 2em;
     margin-top: 2em;
     width: 25%;
     display: inline-block;
-    height: 40em;
+    height: 42em;
     margin-right: 1em;
     margin-left: 4em;
 }
@@ -239,17 +238,26 @@ color: #f15a29;
 margin-bottom: .5em;
 }
 
+.social{
+text-align: center;
+margin-top: 2em;
+}
 .icons{
-    text-align: center;
-    display: inline-block; 
+margin-top: 2em;
+margin-bottom: 2em;    
+}
+.icons > li {
+display: inline-block;
 }
 .twitter{
     border: .2em solid;
     border-radius: 10px;
+    color: #4099FF;
 }
 .facebook{
     border: .2em solid;
     border-radius: 10px;
+    color: #3b5998;
 }
 .instagram{
     border: .2em solid;
